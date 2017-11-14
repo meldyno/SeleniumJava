@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testNG">
+	<test name="TestGrouping">
+		<groups>
+			<run>
+				<exclude name="f" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testNG.TestGroupingNew" />
+		</classes>
+	</test>
+</suite>
